@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Orbitron;
+  src: url(../fonts/Orbitron-Regular.ttf);
+}
+body {
+  background-color: rgb(236, 236, 236);
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  font-family: "Orbitron";
+  font-size: 20px;
+  gap: 25px;
+}
+#box {
+  font-family: Orbitron;
+  text-align: center;
+  font-size: 35px;
+  width: 220px;
+  height: 120px;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  box-shadow: inset 5px 5px 10px 1px rgb(199, 199, 199);
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  color: gray;
+}
+.Timer {
+  font-size: 55px;
+  display: flex;
+  flex-flow: row;
+  gap: 15px;
+}
+
+.Buttons {
+  display: flex;
+  flex-flow: row;
+  gap: 25px;
+}
+.Buttons button {
+  background-color: rgb(223, 223, 223);
+  box-shadow: 5px 5px 8px -5px rgb(138, 138, 138);
+  width: 120px;
+  height: 60px;
+  border: none;
+  font-family: "Orbitron";
+  font-size: 22px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  cursor: pointer;
+}
+.Buttons button:hover {
+  box-shadow: none;
+  transform: scale(90%);
+  -webkit-transform: scale(90%);
+  -moz-transform: scale(90%);
+  -ms-transform: scale(90%);
+  -o-transform: scale(90%);
+}
+.Buttons button:active {
+  transition: none;
+  opacity: 0.5;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+}
